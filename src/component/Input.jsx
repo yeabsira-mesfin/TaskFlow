@@ -1,6 +1,7 @@
 import React, { forwardRef } from "react";
 
 const Input = forwardRef(({ label, textArea, ...props }, ref) => {
+ const classes = "text-gray-800 w-full p-1 px-2 border-b-2 rounded-mdborder-gray-300 focus:outline-none focus:border-blue-300 ";
   return (
     <p className="flex flex-col gap-1 my-4">
       <label htmlFor="" className="text-sm font-bold uppercase">
@@ -9,11 +10,10 @@ const Input = forwardRef(({ label, textArea, ...props }, ref) => {
       {textArea ? (
         <textarea ref={ref}
           {...props}
-          className="text-gray-800 w-full p-1 border-b-2 rounded-md
-           border-gray-300 focus:outline-none focus:border-gray-800"
+          className={classes}
         />
       ) : (
-        <input ref={ref} {...props} className="text-gray-800 rounded-md" />
+        <input ref={ref} {...props} className={classes} />
       )}
     </p>
   );
