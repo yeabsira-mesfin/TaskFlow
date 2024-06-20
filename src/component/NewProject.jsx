@@ -2,10 +2,10 @@ import React from 'react'
 import Input from './Input'
 const NewProject = () => {
   return (
-    <div>
-        <menu>
-            <li><button>Cancel</button></li>
-            <li><button>Save</button></li>
+    <div className='w-[35rem] mt-16 text-gray-50'>
+        <menu className=' flex items-center justify-end gap-4 my-4'>
+            <li><button className='hover:text-gray-100'>Cancel</button></li>
+            <li><button className='px-6 py-2 rounded-md bg-blue-300 hover:bg-gray-500 hover:text-gray-100'>Save</button></li>
         </menu>
         <div>
             <Input label = "Title"/>
