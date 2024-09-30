@@ -4,6 +4,7 @@ TaskFlow
 TaskFlow is a project management platform designed to help users efficiently manage their projects. With an intuitive interface built using React, users can create projects, add tasks, and keep track of deadlines seamlessly.
 
 Features
+
 Add Projects: Easily create new projects by providing a title, description, and due date.
 Task Management: Add tasks to each project, enabling better organization and tracking.
 Delete Tasks: Remove tasks as needed to keep your project organized and up-to-date.
