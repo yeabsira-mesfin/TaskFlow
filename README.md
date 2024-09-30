@@ -7,11 +7,17 @@ Features
 
 Add Projects: Easily create new projects by providing a title, description, and due date.
 Task Management: Add tasks to each project, enabling better organization and tracking.
+
 Delete Tasks: Remove tasks as needed to keep your project organized and up-to-date.
+
 User-Friendly Interface: Navigate through your projects and tasks with a clean and intuitive layout.
+
 Technologies Used
+
 Frontend: React, HTML, CSS, JavaScript
+
 Getting Started
+
 Clone the repository:
 
 bash
